@@ -7,7 +7,7 @@ from openai import OpenAI
 
 # === API 키 설정 ===
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
-NAVER_CLIENT_ID = st.secrets["VER_CLIENT_ID"]
+NAVER_CLIENT_ID = st.secrets["NAVER_CLIENT_ID"]
 NAVER_CLIENT_SECRET = st.secrets["NAVER_CLIENT_SECRET"]
 
 # OpenAI 클라이언트 초기화
